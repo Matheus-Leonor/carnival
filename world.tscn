@@ -2,8 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://dygfmrlgho0ni" path="res://player.tscn" id="1_f3sb7"]
 [ext_resource type="PackedScene" uid="uid://cpwrne83aobaj" path="res://bullet.tscn" id="2_fj7yv"]
+[ext_resource type="PackedScene" uid="uid://benp17onmh800" path="res://enemy.tscn" id="3_tlwt5"]
 
 [node name="Node2D" type="Node2D" unique_id=1913225093]
 
 [node name="CharacterBody2D" parent="." unique_id=1003408236 instance=ExtResource("1_f3sb7")]
 bullet_scene = ExtResource("2_fj7yv")
+
+[node name="CharacterBody2D2" parent="." unique_id=40681937 instance=ExtResource("3_tlwt5")]
